@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/utils.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <!-- <link rel="stylesheet" href="/CSS/contact.css" /> -->
+    <link rel="stylesheet" href="/CSS/search.css" />
+    <link rel="stylesheet" href="/CSS/bootstrap.css" />
+    <link rel="stylesheet" href="/CSS/responsive.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Blog Website</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/img/unnamed.jpg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/blog.html"
+                >Blogs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex search" action="/search.html">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search Articles"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <section class="articles">
+      <div class="articles max-width-1 m-auto">
+        <h2 class="headings-font">Search result in (0.3s)</h2>
+        <div class="main-article">
+          <div class="search-left-article">
+            <div class="article">
+              <div class="article-img">
+                <img src="/img/frnds.png" alt="" />
+              </div>
+              <div class="search-article-content">
+                <a href="/blog.html"
+                  ><h5>
+                    My Autistic Self Has Friends, but My ADHD Self Is Lonely
+                  </h5></a
+                >
+                <div class="author">
+                  <img src="/img/sample2.png" alt="" />
+                  Helen Olivier</div>
+                <span>05<sup>th</sup> march | 7 mins reading</span>
+              </div>
+            </div>
+            <div class="article">
+              <div class="article-img">
+                <img src="/img/drawin.png" alt="" />
+              </div>
+              <div class="search-article-content">
+                <a href="/blog.html"
+                  ><h5>
+                    The Darwin Effect: How Evolution Can Guide Your Success
+                  </h5></a
+                >
+                <div class="author">
+                  <img src="/img/sample2.png" alt="" />
+                  Steven C. Hayes
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017"></path></svg></div>
+                <span>13<sup>th</sup> january | 10 mins reading</span>
+              </div>
+            </div>
+            <div class="article">
+              <div class="article-img">
+                <img src="/img/software.png" alt="" />
+              </div>
+              <div class="search-article-content">
+                <a href="/blog.html"
+                  ><h5>
+                    Software accessibility for users with Attention Deficit Disorder (ADHD)
+                  </h5></a
+                >
+                <div class="author">
+                  <img src="/img/sample4.jpeg" alt="" />
+                  Eva Katharina</div>
+                <span>30<sup>th</sup> april | 17 mins reading</span>
+              </div>
+            </div>
+            <div class="article">
+              <div class="article-img">
+                <img src="/img/investor.png" alt="" />
+              </div>
+              <div class="search-article-content">
+                <a href="/blog.html"
+                  ><h5>
+                    The Pros and Cons of Asking Investors to Sign Your NDA
+                  </h5></a
+                >
+                <div class="author">
+                  <img src="/img/sample1.jpg" alt="" />
+                  Aaron Dinin
+                  <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017"></path></svg></div>
+                <span>16<sup>th</sup> december | 3 mins reading</span>
+              </div>
+            </div>
+            <div class="article">
+              <div class="article-img">
+                <img src="/img/think.png" alt="" />
+              </div>
+              <div class="search-article-content">
+                <a href="/blog.html"
+                  ><h5>
+                    You Don’t Always Get What You THINK You Want
+                  </h5></a
+                >
+                <div class="author">
+                  <img src="/img/sample2.png" alt="" />
+                  Rebecca Levy-Gantt
+                </div>
+                <span>17<sup>th</sup> may | 9 mins reading</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="m-auto"><hr /></div>
+
+        <div class="trending">
+          <div class="trending-logo">
+            <svg
+              width="28"
+              height="29"
+              viewBox="0 0 28 29"
+              fill="none"
+              class="ih y">
+              <path fill="#fff" d="M0 .8h28v28H0z"></path>
+              <g opacity="0.8" clip-path="url(#trending_svg__clip0)">
+                <path fill="#fff" d="M4 4.8h20v20H4z"></path>
+                <circle cx="14" cy="14.79" r="9.5" stroke="#000"></circle>
+                <path
+                  d="M5.46 18.36l4.47-4.48M9.97 13.87l3.67 3.66M13.67 17.53l5.1-5.09M16.62 11.6h3M19.62 11.6v3"
+                  stroke="#000"
+                  stroke-linecap="round"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="trending_svg__clip0">
+                  <path
+                    fill="#fff"
+                    transform="translate(4 4.8)"
+                    d="M0 0h20v20H0z"
+                  ></path>
+                </clipPath>
+              </defs>
+            </svg>
+            <h5>Trending on Daily Dose</h5>
+          </div>
+
+          <div class="trending-container">
+            <div class="trending-content">
+              <div class="trending-first-half">
+                <div class="trending-post">
+                  <span><h1>01</h1></span>
+                  <div class="trending-txt-container">
+                    <div class="author-name">
+                      <img src="/img/sanjay.png" alt="" /> Sanjay Dutt
+                      
+                    </div>
+                    <div class="trending-txt">
+                      <b> The maze is in the mouse</b>
+                    </div>
+                    <span class="trending-dates">Feb 14 . 15 min read</span>
+                  </div>
+                </div>
+
+                <div class="trending-post">
+                  <span><h1>02</h1></span>
+                  <div class="trending-txt-container">
+                    <div class="author-name">
+                      <img src="/img/sample6.png" alt="" /> Mujahid Ali Ansari
+                    </div>
+                    <div class="trending-txt">
+                      <b> There is a crack in everything
+                      </b>
+                    </div>
+                    <span class="trending-dates">Feb 20 . 4 min read <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017"></path></svg>
+                      </span>
+                  </div>
+                </div>
+
+                <div class="trending-post">
+                  <span><h1>03</h1></span>
+                  <div class="trending-txt-container">
+                    <div class="author-name">
+                      <img src="/img/sample3.jpeg" alt="" /> Sirsha majumder
+                    </div>
+                    <div class="trending-txt">
+                      <b>I am a bad software developer and this is my life</b>
+                    </div>
+                    <span class="trending-dates">Feb 14 . 5 min read
+                      </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="trending-second-half">
+                <div class="trending-post">
+                  <span><h1>04</h1></span>
+                  <div class="trending-txt-container">
+                    <div class="author-name">
+                      <img src="/img/sample2.png" alt="" /> Sonu Routh
+                    </div>
+                    <div class="trending-txt">
+                      <b> Ukraine War, 19 February 2023: Bakhmut
+                      </b>
+                    </div>
+                    <span class="trending-dates">Feb 19 . 3 min read</span>
+                  </div>
+                </div>
+
+                <div class="trending-post">
+                  <span><h1>05</h1></span>
+                  <div class="trending-txt-container">
+                    <div class="author-name">
+                      <img src="/img/sample4.jpeg" alt="" /> Ashutosh Kumar Yadav
+                    </div>
+                    <div class="trending-txt">
+                      <b>The age of Agile must end</b>
+                    </div>
+                    <span class="trending-dates">Feb 12 . 8 min read <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017"></path></svg>
+
+                    </span>
+                  </div>
+                </div>
+
+                <div class="trending-post">
+                  <span><h1>06</h1></span>
+                  <div class="trending-txt-container">
+                    <div class="author-name">
+                      <img src="/img/bear.png" alt="" /> Shahil Chourasia
+                    </div>
+                    <div class="trending-txt">
+                      <b>You Are Not Okay and Tomorrow Will Come</b>
+                    </div>
+                    <span class="trending-dates">Feb 9 . 3 min read
+                      
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="main-footer max-width-1 m-auto">
+        <div class="upper-footer">
+          <div class="upper-footer-content">
+            <div class="footer-list-items">
+              <ul>
+                <li>
+                  <h3>Help</h3>
+                </li>
+                <li>
+                  <a href="#">Help Center</a>
+                </li>
+                <li>
+                  <a href="#">Help Forum</a>
+                </li>
+                <li>
+                  <a href="#">Video Tutorils</a>
+                </li>
+              </ul>
+
+              <ul>
+                <h3>Community</h3>
+                <li>
+                  <a href="#">Blogger Buzz</a>
+                </li>
+              </ul>
+              <ul>
+                <h3>Developers</h3>
+                <li>
+                  <a href="#">Blogger API</a>
+                </li>
+                <li>
+                  <a href="#">Developer Forum</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-logo">
+              <img src="/img/unnamed.jpg" alt="" />
+              <p>Contact - support.dailydose@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-line">
+          <hr />
+        </div>
+        <div class="lower-footer">
+          <div class="lower-footer-content">
+            <ul>
+              <li>
+                <a href="#">Terms</a>
+              </li>
+              <span>|</span>
+              <li>
+                <a href="#">Data protection</a>
+              </li>
+              <span>|</span>
+              <li>
+                <a href="#">Content Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M20 5.34c-.67.41-1.4.7-2.18.87a3.45 3.45 0 0 0-5.02-.1 3.49 3.49 0 0 0-1.02 2.47c0 .28.03.54.07.8a9.91 9.91 0 0 1-7.17-3.66 3.9 3.9 0 0 0-.5 1.74 3.6 3.6 0 0 0 1.56 2.92 3.36 3.36 0 0 1-1.55-.44V10c0 1.67 1.2 3.08 2.8 3.42-.3.06-.6.1-.94.12l-.62-.06a3.5 3.5 0 0 0 3.24 2.43 7.34 7.34 0 0 1-4.36 1.49l-.81-.05a9.96 9.96 0 0 0 5.36 1.56c6.4 0 9.91-5.32 9.9-9.9v-.5c.69-.49 1.28-1.1 1.74-1.81-.63.3-1.3.48-2 .56A3.33 3.33 0 0 0 20 5.33"
+                fill="#A8A8A8"
+              ></path>
+            </svg>
+
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19.75 12.04c0-4.3-3.47-7.79-7.75-7.79a7.77 7.77 0 0 0-5.9 12.84 7.77 7.77 0 0 0 4.69 2.63v-5.49h-1.9v-2.2h1.9v-1.62c0-1.88 1.14-2.9 2.8-2.9.8 0 1.49.06 1.69.08v1.97h-1.15c-.91 0-1.1.43-1.1 1.07v1.4h2.17l-.28 2.2h-1.88v5.52a7.77 7.77 0 0 0 6.7-7.71"
+                fill="#A8A8A8"
+              ></path>
+            </svg>
+
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19.75 5.39v13.22a1.14 1.14 0 0 1-1.14 1.14H5.39a1.14 1.14 0 0 1-1.14-1.14V5.39a1.14 1.14 0 0 1 1.14-1.14h13.22a1.14 1.14 0 0 1 1.14 1.14zM8.81 10.18H6.53v7.3H8.8v-7.3zM9 7.67a1.31 1.31 0 0 0-1.3-1.32h-.04a1.32 1.32 0 0 0 0 2.64A1.31 1.31 0 0 0 9 7.71v-.04zm8.46 5.37c0-2.2-1.4-3.05-2.78-3.05a2.6 2.6 0 0 0-2.3 1.18h-.07v-1h-2.14v7.3h2.28V13.6a1.51 1.51 0 0 1 1.36-1.63h.09c.72 0 1.26.45 1.26 1.6v3.91h2.28l.02-4.43z"
+                fill="#A8A8A8"
+              ></path>
+            </svg>
+
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.57 14.67c0-.57.13-1.11.38-1.6l.02-.02v-.02l.02-.02c0-.02 0-.02.02-.02.12-.26.3-.52.57-.8L7.78 9v-.02l.01-.02c.44-.41.91-.7 1.44-.85a4.87 4.87 0 0 0-1.19 2.36A5.04 5.04 0 0 0 8 11.6L6.04 13.6c-.19.19-.32.4-.38.65a2 2 0 0 0 0 .9c.08.2.2.4.38.57l1.29 1.31c.27.28.62.42 1.03.42.42 0 .78-.14 1.06-.42l1.23-1.25.79-.78 1.15-1.16c.08-.09.19-.22.28-.4.1-.2.15-.42.15-.67 0-.16-.02-.3-.06-.45l-.02-.02v-.02l-.07-.14s0-.03-.04-.06l-.06-.13-.02-.02c0-.02 0-.03-.02-.05a.6.6 0 0 0-.14-.16l-.48-.5c0-.04.02-.1.04-.15l.06-.12 1.17-1.14.09-.09.56.57c.02.04.08.1.16.18l.05.04.03.06.04.05.03.04.04.06.1.14.02.02c0 .02.01.03.03.04l.1.2v.02c.1.16.2.38.3.68a1 1 0 0 1 .04.25 3.2 3.2 0 0 1 .02 1.33 3.49 3.49 0 0 1-.95 1.87l-.66.67-.97.97-1.56 1.57a3.4 3.4 0 0 1-2.47 1.02c-.97 0-1.8-.34-2.49-1.03l-1.3-1.3a3.55 3.55 0 0 1-1-2.51v-.01h-.02v.02zm5.39-3.43c0-.19.02-.4.07-.63.13-.74.44-1.37.95-1.87l.66-.67.97-.98 1.56-1.56c.68-.69 1.5-1.03 2.47-1.03.97 0 1.8.34 2.48 1.02l1.3 1.32a3.48 3.48 0 0 1 1 2.48c0 .58-.11 1.11-.37 1.6l-.02.02v.02l-.02.04c-.14.27-.35.54-.6.8L16.23 15l-.01.02-.01.02c-.44.42-.92.7-1.43.83a4.55 4.55 0 0 0 1.23-3.52L18 10.38c.18-.21.3-.42.35-.65a2.03 2.03 0 0 0-.01-.9 1.96 1.96 0 0 0-.36-.58l-1.3-1.3a1.49 1.49 0 0 0-1.06-.42c-.42 0-.77.14-1.06.4l-1.2 1.27-.8.8-1.16 1.15c-.08.08-.18.21-.29.4a1.66 1.66 0 0 0-.08 1.12l.02.03v.02l.06.14s.01.03.05.06l.06.13.02.02.01.02.01.02c.05.08.1.13.14.16l.47.5c0 .04-.02.09-.04.15l-.06.12-1.15 1.15-.1.08-.56-.56a2.3 2.3 0 0 0-.18-.19c-.02-.01-.02-.03-.02-.04l-.02-.02a.37.37 0 0 1-.1-.12c-.03-.03-.05-.04-.05-.06l-.1-.15-.02-.02-.02-.04-.08-.17v-.02a5.1 5.1 0 0 1-.28-.69 1.03 1.03 0 0 1-.04-.26c-.06-.23-.1-.46-.1-.7v.01z"
+                fill="#A8A8A8"
+              ></path>
+            </svg>
+          </div>
+          <div class="source">
+            Source : Medium, Blogging Wizard, Themeisle
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/e097feabdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/JS/main.js"></script>
+  </body>
+</html>
