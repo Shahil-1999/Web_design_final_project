@@ -15,8 +15,7 @@
 
 .contact-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .main-contact {
@@ -25,11 +24,7 @@
 
 }
 
-.contact-form {
 
-    margin-top: 2%;
-
-}
 
 .contact h2 {
     margin-top: 2% !important;
