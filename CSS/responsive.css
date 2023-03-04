@@ -43,6 +43,7 @@
 
     .map {
         width: 100% !important;
+        margin-top: 2%;
     }
 
     .footer-list-items,
