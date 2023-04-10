@@ -21,7 +21,7 @@ $(document).ready(function () {
   }
 
   setTimeout(() => {
-    $("#right-article-1").fadeOut(1000);
+    $("#right-article-1").slideUp(1000);
   }, 4000);
 
   let slide_index = 0;
@@ -35,9 +35,9 @@ $(document).ready(function () {
 
   function display(n) {
     setTimeout(() => {
-      $("#right-article-1").fadeOut(1000);
-      $("#right-article-2").fadeOut(1000);
-      $("#right-article-3").fadeOut(1000);
+      $("#right-article-1").slideUp(1000);
+      $("#right-article-2").slideUp(1000);
+      $("#right-article-3").slideUp(1000);
     }, 4000);
 
     if (n == 1) {
